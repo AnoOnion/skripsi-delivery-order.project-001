@@ -1,0 +1,24 @@
+/* NProgress, (c) 2013, 2014 Rico Sta. Cruz - http://ricostacruz.com/nprogress
+ * @license MIT */
+
+/*!
+  * vue-router v4.0.12
+  * (c) 2021 Eduardo San Martin Morote
+  * @license MIT
+  */
+
+/*!
+ * vuex v4.0.2
+ * (c) 2021 Evan You
+ * @license MIT
+ */
+
+/*! Capacitor: https://capacitorjs.com/ - MIT License */
+
+/*! js-cookie v3.0.1 | MIT */
+
+/**
+  * vee-validate v4.5.7
+  * (c) 2021 Abdelrahman Awad
+  * @license MIT
+  */

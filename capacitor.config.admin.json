@@ -1,0 +1,16 @@
+{
+  "appId": "com.adminsanqua.app",
+  "appName": "Admin San Qua Karanganyar",
+  "webDir": "public/dist",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "WebView": {
+      "scrollEnabled": false
+    },
+    "GoogleAuth": {
+      "scopes": ["profile", "email"],
+      "serverClientId": "413216323361-4d44doat332nb718dmh2ues57ldi6ast.apps.googleusercontent.com",
+      "forceCodeForRefreshToken": true
+    }
+  }
+}

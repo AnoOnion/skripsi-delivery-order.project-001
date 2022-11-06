@@ -1,0 +1,8 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : {
+        "namespace": "android_app",
+        "package_name": "com.sanqua.app",
+        "sha256_cert_fingerprints": ["11:C9:DC:AB:73:15:6C:BB:D5:41:B2:C8:0B:B2:4C:7F:06:C7:05:0C:56:40:57:67:59:EE:E3:0E:A0:FD:CB:6C"]
+    }
+}]

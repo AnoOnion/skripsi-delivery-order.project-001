@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">San Qua Karanganyar</string>
+    <string name="title_activity_main">San Qua Karanganyar</string>
+    <string name="package_name">com.sanqua.app</string>
+    <string name="custom_url_scheme">com.sanqua.app</string>
+    <string name="server_client_id">413216323361-4d44doat332nb718dmh2ues57ldi6ast.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1871992282993613</string>
+    <string name="facebook_client_token">3a227b6d2af4146fcc6f0ee38cba7849</string>
+</resources>

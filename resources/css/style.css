@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,500,600,700&display=swap);
+
+@font-face {
+    font-family: 'Flow';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../font/Flow.woff') format("woff");
+}
+
+.font-flow {
+    font-family: 'Flow';
+}
+
+body {
+    font-family: Nunito, Segoe UI, arial;
+
+    @apply transition-colors duration-300 ease-in-out;
+}
+
+::-webkit-scrollbar {
+    @apply w-4;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 5px solid transparent;
+
+    @apply rounded-full bg-clip-content bg-slate-600;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#nprogress {
+    pointer-events: none;
+}
+
+#nprogress .bar {
+    z-index: 1031;
+    height: 2px;
+
+    @apply fixed top-0 left-0 w-full bg-sky-500;
+}
+
+#nprogress .peg {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100%;
+    box-shadow: 0 0 10px #29d, 0 0 5px #29d;
+    opacity: 1.0;
+
+    -webkit-transform: rotate(3deg) translate(0px, -4px);
+        -ms-transform: rotate(3deg) translate(0px, -4px);
+            transform: rotate(3deg) translate(0px, -4px);
+}
+
+.nprogress-custom-parent {
+    overflow: hidden;
+    position: relative;
+}
+
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+    position: absolute;
+}
+
+@-webkit-keyframes nprogress-spinner {
+    0%   { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes nprogress-spinner {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.filepond--root {
+    @apply !mb-0;
+}
+
+.filepond--credits {
+    @apply hidden;
+}
+
+.filepond--drop-label {
+    @apply !text-sm !text-slate-700 dark:!text-slate-300;
+}
+
+.filepond--panel-root {
+    @apply bg-slate-200/50 dark:bg-slate-900/50;
+}
+
+.filepond--panel-top:after, .filepond--panel-bottom:before {
+    background-color: none !important;
+}
+
+.before\:radial-gradient-r:before {
+    background: radial-gradient(circle at top right, transparent 0.5rem, #ffffff 0.5rem);
+}
+
+.dark .dark\:before\:radial-gradient-r:before {
+    background: radial-gradient(circle at top right, transparent 0.5rem, #1e293b 0.5rem);
+}
